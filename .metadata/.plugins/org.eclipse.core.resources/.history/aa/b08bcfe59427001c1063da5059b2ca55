@@ -1,0 +1,27 @@
+#ifndef _HX711_H_
+#define _HX711_H_
+
+// Includes
+#include "main.h"
+
+// Types
+typedef enum
+{
+  GAIN_128 = 0u,
+  GAIN_64,
+  GAIN_32
+} HX711_GainLevel;
+
+void HX711_Init(
+	GPIO_TypeDef* SCK_PORT,
+	uint16_t SCK_PIN,
+	GPIO_TypeDef* DT_PORT,
+	uint16_t DT_PIN
+);
+void HX711_SetDisplayBrightness(TM1638_DisplayBrightness brightness);
+void TM1638_SetDisplayState(TM1638_DisplayState state);
+void TM1638_SetNumberToDisplay(int number);
+void TM1638_SetLedStatus(uint8_t position, TM1638_LedStatus status);
+void TM1638_ToggleLedStatus(uint8_t position);
+
+#endif // _HX711_H_

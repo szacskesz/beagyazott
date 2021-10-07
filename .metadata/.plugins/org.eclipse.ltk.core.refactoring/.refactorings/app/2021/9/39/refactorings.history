@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;app/Core/Src/tm1638.h&apos; to &apos;tm1638_platform.h&apos;" description="Rename resource &apos;tm1638.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/tm1638.h" name="tm1638_platform.h" stamp="1632324989790" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;app/Core/Src/TM1638&apos; to &apos;_TM1638&apos;" description="Rename resource &apos;TM1638&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/TM1638" name="_TM1638" stamp="1632328069063" updateReferences="true"/>
+</session>

@@ -1,0 +1,60 @@
+// Includes
+#include "HX711.h"
+
+// Global variables
+GPIO_TypeDef* HX711_SCK_PORT;
+uint16_t HX711_SCK_PIN;
+GPIO_TypeDef* HX711_DT_PORT;
+uint16_t HX711_DT_PIN;
+
+HX711_GainLevel gain;
+
+// Private function
+void HX711_SCK_SET(GPIO_PinState state) {
+	HAL_GPIO_WritePin(HX711_SCK_PORT, HX711_SCK_PIN, state);
+}
+
+void HX711_SCK_HIGH() {
+	HX711_SCK_SET(GPIO_PIN_SET);
+}
+
+void HX711_SCK_LOW() {
+	HX711_SCK_SET(GPIO_PIN_RESET);
+}
+
+void HX711_DT_SET(GPIO_PinState state) {
+	HAL_GPIO_WritePin(HX711_DT_PORT, HX711_DT_PIN, state);
+}
+
+void TM1638_DT_HIGH() {
+	HX711_DT_SET(GPIO_PIN_SET);
+}
+
+void HX711_DT_LOW() {
+	HX711_DT_SET(GPIO_PIN_RESET);
+}
+
+// Public functions
+void HX711_Init(
+	GPIO_TypeDef* SCK_PORT,
+	uint16_t SCK_PIN,
+	GPIO_TypeDef* DT_PORT,
+	uint16_t DT_PIN
+) {
+	HX711_SCK_PORT= SCK_PORT;
+	HX711_SCK_PIN = SCK_PIN;
+	HX711_DT_PORT = DT_PORT;
+	HX711_DT_PIN = DT_PIN;
+
+	HX711_PowerDown();
+}
+
+void HX711_PowerDown() {
+	HAL_GPIO_WritePin(HX711_SCK_GPIO_Port, HX711_SCK_Pin, GPIO_PIN_SET);
+	HAL_Delay(1);
+}
+
+void HX711_PowerUp() {
+	HAL_GPIO_WritePin(HX711_SCK_GPIO_Port, HX711_SCK_Pin, GPIO_PIN_RESET);
+	HAL_Delay(1);
+}
