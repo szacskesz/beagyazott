@@ -6,16 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="//"/>
 		<list key="findhistory">
-			<item value="us(0);"/>
-			<item value="USER CODE BEGIN"/>
-			<item value="USER"/>
-			<item value="abs"/>
-			<item value="i "/>
-			<item value="i"/>
-			<item value="uint8_t"/>
-			<item value="STB"/>
+			<item value="//"/>
+			<item value="RTC_WeekDay_Definitions"/>
+			<item value="rtc"/>
+			<item value="__HAL_RCC_RTC_ENABLE"/>
+			<item value="LINE_ENDING"/>
+			<item value="CMD_PIN"/>
+			<item value="isStartsWith"/>
+			<item value="TIMEOUT"/>
+			<item value="AT+CPIN=\&quot;"/>
+			<item value="HUART"/>
+			<item value="huart3"/>
+			<item value="strcm"/>
+			<item value="received"/>
+			<item value="rece"/>
+			<item value="call"/>
 		</list>
 		<list key="replacehistory">
 			<item value="DIO"/>

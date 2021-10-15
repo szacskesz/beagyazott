@@ -1,0 +1,5 @@
+#ifndef _SIM900_CONFIG_H_
+#define _SIM900_CONFIG_H_
+	char[] pincode = "xxxx" //TODO  pincode
+
+#endif // _SIM900_CONFIG_H_

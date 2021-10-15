@@ -21,6 +21,8 @@ OBJCOPY_BIN :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Core/Src/HX711 \
+Core/Src/RTC_POLLING \
+Core/Src/SIM900 \
 Core/Src/TM1638 \
 Core/Src \
 Core/Startup \

@@ -1,0 +1,10 @@
+13:11:22 **** Incremental Build of configuration Debug for project sim900 ****
+make -j4 all 
+arm-none-eabi-size   sim900.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9820	     20	   1756	  11596	   2d4c	sim900.elf
+Finished building: default.size.stdout
+ 
+
+13:11:23 Build Finished. 0 errors, 0 warnings. (took 489ms)
+

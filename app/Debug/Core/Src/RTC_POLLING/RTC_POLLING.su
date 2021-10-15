@@ -1,0 +1,3 @@
+RTC_POLLING.c:15:6:updateDateTime	8	static
+RTC_POLLING.c:22:6:RTC_POLLING_InitEveryDay	16	static
+RTC_POLLING.c:29:6:RTC_POLLING_CheckEveryDay	8	static

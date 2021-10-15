@@ -1,0 +1,16 @@
+SIM900.c:52:6:isStrStartsWith	16	static
+SIM900.c:56:6:isStrContains	16	static
+SIM900.c:60:6:resetBuffer	8	static
+SIM900.c:64:6:uartSend	16	static
+SIM900.c:68:6:uartReceive	8	static
+SIM900.c:72:6:uartSendAndReceive	16	static
+SIM900.c:79:6:isSerialConnectionWorking	8	static
+SIM900.c:85:6:isSimInserted	8	static
+SIM900.c:91:6:isSimLocked	8	static
+SIM900.c:97:6:tryUnlockSim	4	static
+SIM900.c:101:6:isAttachedToNetwork	8	static
+SIM900.c:107:6:isRegisteredToNetwork	8	static
+SIM900.c:116:6:setTextMode	8	static
+SIM900.c:123:6:sendSMS	64	dynamic
+SIM900.c:154:9:SIM900_Init	16	static
+SIM900.c:179:9:SIM900_TrySendSMS	16	static

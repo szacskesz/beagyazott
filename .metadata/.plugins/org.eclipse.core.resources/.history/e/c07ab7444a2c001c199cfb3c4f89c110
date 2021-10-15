@@ -1,0 +1,6 @@
+#ifndef _SIM900_CONFIG_H_
+#define _SIM900_CONFIG_H_
+	char[] pincode = "xxxx"; //TODO  pincode
+	char[] phone_number = "+3630xxxyyyy" //TODO phone number
+
+#endif // _SIM900_CONFIG_H_
