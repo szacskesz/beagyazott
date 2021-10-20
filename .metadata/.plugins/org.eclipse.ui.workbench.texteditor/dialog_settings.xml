@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="//"/>
+		<item key="selection" value="HX711_Calibrate(16405360, 1515 / (double)34575);"/>
 		<list key="findhistory">
+			<item value="HX711_Calibrate(16405360, 1515 / (double)34575);"/>
 			<item value="//"/>
 			<item value="RTC_WeekDay_Definitions"/>
 			<item value="rtc"/>
@@ -22,7 +23,6 @@
 			<item value="strcm"/>
 			<item value="received"/>
 			<item value="rece"/>
-			<item value="call"/>
 		</list>
 		<list key="replacehistory">
 			<item value="DIO"/>

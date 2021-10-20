@@ -11468,3 +11468,779 @@ Finished building: app.bin
  
 Finished building: app.list
  
+12:54:35 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SIM900/SIM900.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SIM900/SIM900.d" -MT"Core/Src/SIM900/SIM900.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/SIM900/SIM900.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  29520	    492	   1960	  31972	   7ce4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.list
+ 
+Finished building: app.bin
+ 
+12:55:19 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-size   app.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29520	    492	   1960	  31972	   7ce4	app.elf
+Finished building: default.size.stdout
+ 
+13:05:23 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  29536	    492	   1960	  31988	   7cf4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+13:06:24 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  29520	    492	   1960	  31972	   7ce4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+13:28:31 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SIM900/SIM900.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SIM900/SIM900.d" -MT"Core/Src/SIM900/SIM900.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/SIM900/SIM900.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  30264	    492	   1960	  32716	   7fcc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+13:29:33 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-size   app.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30264	    492	   1960	  32716	   7fcc	app.elf
+Finished building: default.size.stdout
+ 
+13:39:52 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SIM900/SIM900.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SIM900/SIM900.d" -MT"Core/Src/SIM900/SIM900.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/SIM900/SIM900.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  30264	    492	   1960	  32716	   7fcc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:23:30 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25312	    492	   1760	  27564	   6bac	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:24:48 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-size   app.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25312	    492	   1760	  27564	   6bac	app.elf
+Finished building: default.size.stdout
+ 
+15:34:50 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+../Core/Src/HX711/HX711.c: In function 'HX711_ReadRawValue':
+../Core/Src/HX711/HX711.c:72:7: warning: unused variable 'value2' [-Wunused-variable]
+   72 |  long value2 = value ^ 0x80000;
+      |       ^~~~~~
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:35:42 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:44:39 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:46:18 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:47:44 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25344	    492	   1760	  27596	   6bcc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:48:38 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-size   app.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25344	    492	   1760	  27596	   6bcc	app.elf
+Finished building: default.size.stdout
+ 
+15:49:17 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:58:22 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25368	    492	   1760	  27620	   6be4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:59:10 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25368	    492	   1760	  27620	   6be4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+15:59:40 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25368	    492	   1760	  27620	   6be4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:00:33 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25360	    492	   1760	  27612	   6bdc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:01:09 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25360	    492	   1760	  27612	   6bdc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:03:14 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:03:48 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:05:12 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:23:48 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:25:12 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25312	    492	   1760	  27564	   6bac	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:29:44 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25336	    492	   1760	  27588	   6bc4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:30:24 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25336	    492	   1760	  27588	   6bc4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:35:30 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25360	    492	   1760	  27612	   6bdc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:36:06 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:36:29 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:37:59 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+../Core/Src/HX711/HX711.c: In function 'HX711_ReadRawValue':
+../Core/Src/HX711/HX711.c:75:7: warning: unused variable 'value2' [-Wunused-variable]
+   75 |  long value2 = value ^ 0x80000; //value ^ 0xF80000; //value ^ 0x80000;
+      |       ^~~~~~
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:39:10 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+../Core/Src/HX711/HX711.c: In function 'HX711_ReadRawValue':
+../Core/Src/HX711/HX711.c:75:7: warning: unused variable 'value2' [-Wunused-variable]
+   75 |  long value2 = value ^ 0b100000000000000000000000;// value ^ 0x80000; //value ^ 0xF80000; //value ^ 0x80000;
+      |       ^~~~~~
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:39:26 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:44:21 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25344	    492	   1760	  27596	   6bcc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:44:57 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25344	    492	   1760	  27596	   6bcc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:45:35 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25344	    492	   1760	  27596	   6bcc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:46:15 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:47:51 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:48:31 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:50:06 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:50:25 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25344	    492	   1760	  27596	   6bcc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:51:12 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:52:22 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:53:06 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25352	    492	   1760	  27604	   6bd4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:55:30 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25320	    492	   1760	  27572	   6bb4	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 
+16:58:28 **** Incremental Build of configuration Debug for project app ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SIM900/SIM900.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SIM900/SIM900.d" -MT"Core/Src/SIM900/SIM900.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/SIM900/SIM900.o"
+arm-none-eabi-gcc "../Core/Src/HX711/HX711.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HX711/HX711.d" -MT"Core/Src/HX711/HX711.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HX711/HX711.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "app.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\DATA\ME\beagyazott\git\app\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="app.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: app.elf
+ 
+arm-none-eabi-size   app.elf 
+arm-none-eabi-objdump -h -S  app.elf  > "app.list"
+arm-none-eabi-objcopy  -O binary  app.elf  "app.bin"
+   text	   data	    bss	    dec	    hex	filename
+  30264	    492	   1960	  32716	   7fcc	app.elf
+Finished building: default.size.stdout
+ 
+Finished building: app.bin
+ 
+Finished building: app.list
+ 

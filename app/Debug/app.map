@@ -3147,152 +3147,151 @@ LOAD c:/programs/stm32cubeide/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000008000b30       0x50 ./Core/Src/HX711/HX711.o
                 0x0000000008000b30                HX711_PerformGainPulse
  .text.HX711_ReadRawValue
-                0x0000000008000b80       0x4c ./Core/Src/HX711/HX711.o
+                0x0000000008000b80       0x50 ./Core/Src/HX711/HX711.o
                 0x0000000008000b80                HX711_ReadRawValue
  .text.HX711_Init
-                0x0000000008000bcc       0x48 ./Core/Src/HX711/HX711.o
-                0x0000000008000bcc                HX711_Init
+                0x0000000008000bd0       0x48 ./Core/Src/HX711/HX711.o
+                0x0000000008000bd0                HX711_Init
  .text.HX711_PowerDown
-                0x0000000008000c14       0x12 ./Core/Src/HX711/HX711.o
-                0x0000000008000c14                HX711_PowerDown
+                0x0000000008000c18       0x12 ./Core/Src/HX711/HX711.o
+                0x0000000008000c18                HX711_PowerDown
  .text.HX711_PowerUp
-                0x0000000008000c26       0x16 ./Core/Src/HX711/HX711.o
-                0x0000000008000c26                HX711_PowerUp
+                0x0000000008000c2a       0x16 ./Core/Src/HX711/HX711.o
+                0x0000000008000c2a                HX711_PowerUp
  .text.HX711_IsPoweredUp
-                0x0000000008000c3c       0x18 ./Core/Src/HX711/HX711.o
-                0x0000000008000c3c                HX711_IsPoweredUp
+                0x0000000008000c40       0x18 ./Core/Src/HX711/HX711.o
+                0x0000000008000c40                HX711_IsPoweredUp
  .text.HX711_SetGainLevel
-                0x0000000008000c54       0x2c ./Core/Src/HX711/HX711.o
-                0x0000000008000c54                HX711_SetGainLevel
+                0x0000000008000c58       0x2c ./Core/Src/HX711/HX711.o
+                0x0000000008000c58                HX711_SetGainLevel
  .text.HX711_Calibrate
-                0x0000000008000c80       0x34 ./Core/Src/HX711/HX711.o
-                0x0000000008000c80                HX711_Calibrate
+                0x0000000008000c84       0x34 ./Core/Src/HX711/HX711.o
+                0x0000000008000c84                HX711_Calibrate
  .text.HX711_ReadValue
-                0x0000000008000cb4       0x40 ./Core/Src/HX711/HX711.o
-                0x0000000008000cb4                HX711_ReadValue
+                0x0000000008000cb8       0x40 ./Core/Src/HX711/HX711.o
+                0x0000000008000cb8                HX711_ReadValue
  .text.HX711_ReadAverageValue
-                0x0000000008000cf4       0x64 ./Core/Src/HX711/HX711.o
-                0x0000000008000cf4                HX711_ReadAverageValue
+                0x0000000008000cf8       0x64 ./Core/Src/HX711/HX711.o
+                0x0000000008000cf8                HX711_ReadAverageValue
  .text.updateDateTime
-                0x0000000008000d58       0x28 ./Core/Src/RTC_POLLING/RTC_POLLING.o
-                0x0000000008000d58                updateDateTime
+                0x0000000008000d5c       0x28 ./Core/Src/RTC_POLLING/RTC_POLLING.o
+                0x0000000008000d5c                updateDateTime
  .text.RTC_POLLING_InitEveryDay
-                0x0000000008000d80       0x44 ./Core/Src/RTC_POLLING/RTC_POLLING.o
-                0x0000000008000d80                RTC_POLLING_InitEveryDay
+                0x0000000008000d84       0x44 ./Core/Src/RTC_POLLING/RTC_POLLING.o
+                0x0000000008000d84                RTC_POLLING_InitEveryDay
  .text.RTC_POLLING_CheckEveryDay
-                0x0000000008000dc4       0x5c ./Core/Src/RTC_POLLING/RTC_POLLING.o
-                0x0000000008000dc4                RTC_POLLING_CheckEveryDay
+                0x0000000008000dc8       0x5c ./Core/Src/RTC_POLLING/RTC_POLLING.o
+                0x0000000008000dc8                RTC_POLLING_CheckEveryDay
  .text.isStrStartsWith
-                0x0000000008000e20       0x30 ./Core/Src/SIM900/SIM900.o
-                0x0000000008000e20                isStrStartsWith
+                0x0000000008000e24       0x30 ./Core/Src/SIM900/SIM900.o
+                0x0000000008000e24                isStrStartsWith
  .text.isStrContains
-                0x0000000008000e50       0x26 ./Core/Src/SIM900/SIM900.o
-                0x0000000008000e50                isStrContains
- *fill*         0x0000000008000e76        0x2 
+                0x0000000008000e54       0x26 ./Core/Src/SIM900/SIM900.o
+                0x0000000008000e54                isStrContains
+ *fill*         0x0000000008000e7a        0x2 
  .text.resetBuffer
-                0x0000000008000e78       0x18 ./Core/Src/SIM900/SIM900.o
-                0x0000000008000e78                resetBuffer
+                0x0000000008000e7c       0x18 ./Core/Src/SIM900/SIM900.o
+                0x0000000008000e7c                resetBuffer
  .text.uartSend
-                0x0000000008000e90       0x2c ./Core/Src/SIM900/SIM900.o
-                0x0000000008000e90                uartSend
+                0x0000000008000e94       0x2c ./Core/Src/SIM900/SIM900.o
+                0x0000000008000e94                uartSend
  .text.uartReceive
-                0x0000000008000ebc       0x20 ./Core/Src/SIM900/SIM900.o
-                0x0000000008000ebc                uartReceive
+                0x0000000008000ec0       0x20 ./Core/Src/SIM900/SIM900.o
+                0x0000000008000ec0                uartReceive
  .text.uartSendAndReceive
-                0x0000000008000edc       0x1e ./Core/Src/SIM900/SIM900.o
-                0x0000000008000edc                uartSendAndReceive
- *fill*         0x0000000008000efa        0x2 
+                0x0000000008000ee0       0x1e ./Core/Src/SIM900/SIM900.o
+                0x0000000008000ee0                uartSendAndReceive
+ *fill*         0x0000000008000efe        0x2 
  .text.isSerialConnectionWorking
-                0x0000000008000efc       0x24 ./Core/Src/SIM900/SIM900.o
-                0x0000000008000efc                isSerialConnectionWorking
+                0x0000000008000f00       0x24 ./Core/Src/SIM900/SIM900.o
+                0x0000000008000f00                isSerialConnectionWorking
  .text.isSimInserted
-                0x0000000008000f20       0x24 ./Core/Src/SIM900/SIM900.o
-                0x0000000008000f20                isSimInserted
+                0x0000000008000f24       0x24 ./Core/Src/SIM900/SIM900.o
+                0x0000000008000f24                isSimInserted
  .text.isSimLocked
-                0x0000000008000f44       0x3c ./Core/Src/SIM900/SIM900.o
-                0x0000000008000f44                isSimLocked
+                0x0000000008000f48       0x3c ./Core/Src/SIM900/SIM900.o
+                0x0000000008000f48                isSimLocked
  .text.tryUnlockSim
-                0x0000000008000f80        0xc ./Core/Src/SIM900/SIM900.o
-                0x0000000008000f80                tryUnlockSim
+                0x0000000008000f84        0xc ./Core/Src/SIM900/SIM900.o
+                0x0000000008000f84                tryUnlockSim
  .text.isAttachedToNetwork
-                0x0000000008000f8c       0x24 ./Core/Src/SIM900/SIM900.o
-                0x0000000008000f8c                isAttachedToNetwork
+                0x0000000008000f90       0x24 ./Core/Src/SIM900/SIM900.o
+                0x0000000008000f90                isAttachedToNetwork
  .text.isRegisteredToNetwork
-                0x0000000008000fb0       0x6c ./Core/Src/SIM900/SIM900.o
-                0x0000000008000fb0                isRegisteredToNetwork
+                0x0000000008000fb4       0x6c ./Core/Src/SIM900/SIM900.o
+                0x0000000008000fb4                isRegisteredToNetwork
  .text.setTextMode
-                0x000000000800101c       0x24 ./Core/Src/SIM900/SIM900.o
-                0x000000000800101c                setTextMode
- .text.sendSMS  0x0000000008001040      0x1ec ./Core/Src/SIM900/SIM900.o
-                0x0000000008001040                sendSMS
+                0x0000000008001020       0x24 ./Core/Src/SIM900/SIM900.o
+                0x0000000008001020                setTextMode
+ .text.sendSMS  0x0000000008001044      0x1ec ./Core/Src/SIM900/SIM900.o
+                0x0000000008001044                sendSMS
  .text.SIM900_Init
-                0x000000000800122c       0xd4 ./Core/Src/SIM900/SIM900.o
-                0x000000000800122c                SIM900_Init
+                0x0000000008001230       0xd4 ./Core/Src/SIM900/SIM900.o
+                0x0000000008001230                SIM900_Init
  .text.SIM900_TrySendSMS
-                0x0000000008001300       0x44 ./Core/Src/SIM900/SIM900.o
-                0x0000000008001300                SIM900_TrySendSMS
+                0x0000000008001304       0x44 ./Core/Src/SIM900/SIM900.o
+                0x0000000008001304                SIM900_TrySendSMS
  .text.TM1638_STB_SET
-                0x0000000008001344       0x2c ./Core/Src/TM1638/TM1638.o
-                0x0000000008001344                TM1638_STB_SET
+                0x0000000008001348       0x2c ./Core/Src/TM1638/TM1638.o
+                0x0000000008001348                TM1638_STB_SET
  .text.TM1638_STB_HIGH
-                0x0000000008001370        0xe ./Core/Src/TM1638/TM1638.o
-                0x0000000008001370                TM1638_STB_HIGH
+                0x0000000008001374        0xe ./Core/Src/TM1638/TM1638.o
+                0x0000000008001374                TM1638_STB_HIGH
  .text.TM1638_STB_LOW
-                0x000000000800137e        0xe ./Core/Src/TM1638/TM1638.o
-                0x000000000800137e                TM1638_STB_LOW
+                0x0000000008001382        0xe ./Core/Src/TM1638/TM1638.o
+                0x0000000008001382                TM1638_STB_LOW
  .text.TM1638_CLK_SET
-                0x000000000800138c       0x2c ./Core/Src/TM1638/TM1638.o
-                0x000000000800138c                TM1638_CLK_SET
+                0x0000000008001390       0x2c ./Core/Src/TM1638/TM1638.o
+                0x0000000008001390                TM1638_CLK_SET
  .text.TM1638_CLK_HIGH
-                0x00000000080013b8        0xe ./Core/Src/TM1638/TM1638.o
-                0x00000000080013b8                TM1638_CLK_HIGH
+                0x00000000080013bc        0xe ./Core/Src/TM1638/TM1638.o
+                0x00000000080013bc                TM1638_CLK_HIGH
  .text.TM1638_CLK_LOW
-                0x00000000080013c6        0xe ./Core/Src/TM1638/TM1638.o
-                0x00000000080013c6                TM1638_CLK_LOW
+                0x00000000080013ca        0xe ./Core/Src/TM1638/TM1638.o
+                0x00000000080013ca                TM1638_CLK_LOW
  .text.TM1638_DIO_SET
-                0x00000000080013d4       0x2c ./Core/Src/TM1638/TM1638.o
-                0x00000000080013d4                TM1638_DIO_SET
+                0x00000000080013d8       0x2c ./Core/Src/TM1638/TM1638.o
+                0x00000000080013d8                TM1638_DIO_SET
  .text.TM1638_DIO_HIGH
-                0x0000000008001400        0xe ./Core/Src/TM1638/TM1638.o
-                0x0000000008001400                TM1638_DIO_HIGH
+                0x0000000008001404        0xe ./Core/Src/TM1638/TM1638.o
+                0x0000000008001404                TM1638_DIO_HIGH
  .text.TM1638_SEND_BYTE
-                0x000000000800140e       0x4a ./Core/Src/TM1638/TM1638.o
-                0x000000000800140e                TM1638_SEND_BYTE
+                0x0000000008001412       0x4a ./Core/Src/TM1638/TM1638.o
+                0x0000000008001412                TM1638_SEND_BYTE
  .text.TM1638_GetDisplayConfigCommand
-                0x0000000008001458       0xac ./Core/Src/TM1638/TM1638.o
-                0x0000000008001458                TM1638_GetDisplayConfigCommand
+                0x000000000800145c       0xac ./Core/Src/TM1638/TM1638.o
+                0x000000000800145c                TM1638_GetDisplayConfigCommand
  .text.TM1638_GetDigitHexAt
-                0x0000000008001504       0xe4 ./Core/Src/TM1638/TM1638.o
-                0x0000000008001504                TM1638_GetDigitHexAt
+                0x0000000008001508       0xe4 ./Core/Src/TM1638/TM1638.o
+                0x0000000008001508                TM1638_GetDigitHexAt
  .text.TM1638_GetLedHexAt
-                0x00000000080015e8       0x34 ./Core/Src/TM1638/TM1638.o
-                0x00000000080015e8                TM1638_GetLedHexAt
+                0x00000000080015ec       0x34 ./Core/Src/TM1638/TM1638.o
+                0x00000000080015ec                TM1638_GetLedHexAt
  .text.TM1638_SendDisplayCommand
-                0x000000000800161c       0x4e ./Core/Src/TM1638/TM1638.o
-                0x000000000800161c                TM1638_SendDisplayCommand
- *fill*         0x000000000800166a        0x2 
+                0x0000000008001620       0x4e ./Core/Src/TM1638/TM1638.o
+                0x0000000008001620                TM1638_SendDisplayCommand
+ *fill*         0x000000000800166e        0x2 
  .text.TM1638_SendDataCommand
-                0x000000000800166c       0x70 ./Core/Src/TM1638/TM1638.o
-                0x000000000800166c                TM1638_SendDataCommand
+                0x0000000008001670       0x70 ./Core/Src/TM1638/TM1638.o
+                0x0000000008001670                TM1638_SendDataCommand
  .text.TM1638_UpdateDisplay
-                0x00000000080016dc       0x68 ./Core/Src/TM1638/TM1638.o
-                0x00000000080016dc                TM1638_UpdateDisplay
+                0x00000000080016e0       0x68 ./Core/Src/TM1638/TM1638.o
+                0x00000000080016e0                TM1638_UpdateDisplay
  .text.TM1638_Init
-                0x0000000008001744       0xc8 ./Core/Src/TM1638/TM1638.o
-                0x0000000008001744                TM1638_Init
+                0x0000000008001748       0xc8 ./Core/Src/TM1638/TM1638.o
+                0x0000000008001748                TM1638_Init
  .text.TM1638_SetDisplayBrightness
-                0x000000000800180c       0x20 ./Core/Src/TM1638/TM1638.o
-                0x000000000800180c                TM1638_SetDisplayBrightness
+                0x0000000008001810       0x20 ./Core/Src/TM1638/TM1638.o
+                0x0000000008001810                TM1638_SetDisplayBrightness
  .text.TM1638_SetDisplayState
-                0x000000000800182c       0x20 ./Core/Src/TM1638/TM1638.o
-                0x000000000800182c                TM1638_SetDisplayState
+                0x0000000008001830       0x20 ./Core/Src/TM1638/TM1638.o
+                0x0000000008001830                TM1638_SetDisplayState
  .text.TM1638_SetNumberToDisplay
-                0x000000000800184c       0x20 ./Core/Src/TM1638/TM1638.o
-                0x000000000800184c                TM1638_SetNumberToDisplay
+                0x0000000008001850       0x20 ./Core/Src/TM1638/TM1638.o
+                0x0000000008001850                TM1638_SetNumberToDisplay
  .text.TM1638_SetLedStatus
-                0x000000000800186c       0x30 ./Core/Src/TM1638/TM1638.o
-                0x000000000800186c                TM1638_SetLedStatus
- *fill*         0x000000000800189c        0x4 
+                0x0000000008001870       0x30 ./Core/Src/TM1638/TM1638.o
+                0x0000000008001870                TM1638_SetLedStatus
  .text.main     0x00000000080018a0      0x15c ./Core/Src/main.o
                 0x00000000080018a0                main
  .text.SystemClock_Config
@@ -4428,26 +4427,26 @@ LOAD c:/programs/stm32cubeide/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_macro   0x0000000000018b79      0x1b1 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.o
  .debug_macro   0x0000000000018d2a      0x1a3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
 
-.debug_line     0x0000000000000000     0xb8fe
+.debug_line     0x0000000000000000     0xb900
  .debug_line    0x0000000000000000      0x89d ./Core/Src/HX711/HX711.o
  .debug_line    0x000000000000089d      0x6f8 ./Core/Src/RTC_POLLING/RTC_POLLING.o
  .debug_line    0x0000000000000f95      0xa9d ./Core/Src/SIM900/SIM900.o
  .debug_line    0x0000000000001a32      0xa11 ./Core/Src/TM1638/TM1638.o
- .debug_line    0x0000000000002443      0xaf5 ./Core/Src/main.o
- .debug_line    0x0000000000002f38      0x70b ./Core/Src/stm32f1xx_hal_msp.o
- .debug_line    0x0000000000003643      0x757 ./Core/Src/stm32f1xx_it.o
- .debug_line    0x0000000000003d9a      0x802 ./Core/Src/syscalls.o
- .debug_line    0x000000000000459c      0x4f8 ./Core/Src/sysmem.o
- .debug_line    0x0000000000004a94      0x6fb ./Core/Src/system_stm32f1xx.o
- .debug_line    0x000000000000518f       0x87 ./Core/Startup/startup_stm32f103rbtx.o
- .debug_line    0x0000000000005216      0x928 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_line    0x0000000000005b3e      0xb10 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_line    0x000000000000664e      0x9bf ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_line    0x000000000000700d      0x8aa ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o
- .debug_line    0x00000000000078b7      0xd36 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_line    0x00000000000085ed      0x874 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
- .debug_line    0x0000000000008e61     0x109a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.o
- .debug_line    0x0000000000009efb     0x1a03 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_line    0x0000000000002443      0xaf7 ./Core/Src/main.o
+ .debug_line    0x0000000000002f3a      0x70b ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_line    0x0000000000003645      0x757 ./Core/Src/stm32f1xx_it.o
+ .debug_line    0x0000000000003d9c      0x802 ./Core/Src/syscalls.o
+ .debug_line    0x000000000000459e      0x4f8 ./Core/Src/sysmem.o
+ .debug_line    0x0000000000004a96      0x6fb ./Core/Src/system_stm32f1xx.o
+ .debug_line    0x0000000000005191       0x87 ./Core/Startup/startup_stm32f103rbtx.o
+ .debug_line    0x0000000000005218      0x928 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_line    0x0000000000005b40      0xb10 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_line    0x0000000000006650      0x9bf ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_line    0x000000000000700f      0x8aa ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o
+ .debug_line    0x00000000000078b9      0xd36 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_line    0x00000000000085ef      0x874 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+ .debug_line    0x0000000000008e63     0x109a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.o
+ .debug_line    0x0000000000009efd     0x1a03 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
 
 .debug_str      0x0000000000000000    0x877d4
  .debug_str     0x0000000000000000    0x7e28d ./Core/Src/HX711/HX711.o
