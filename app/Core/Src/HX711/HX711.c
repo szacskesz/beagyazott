@@ -69,7 +69,9 @@ long HX711_ReadRawValue() {
 
 	HX711_PerformGainPulse();
 
-	return value;
+	//HX711 range: lower half is from 0x800000 to 0xFFFFFF, upper half is from 0x000000 to 7FFFFF
+	//so it rolls over at 0xFFFFFF, so we need to flip the 24th bit
+	return value ^ 0x800000;
 }
 
 // Public functions

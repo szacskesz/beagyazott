@@ -126,7 +126,7 @@ int main(void)
   );
 
   HX711_SetGainLevel(GAIN_128);
-  HX711_Calibrate(16405360, 1515 / (double)34575);
+  HX711_Calibrate(8015261, 1515.0 / 33774.0);
   HX711_PowerUp();
 //  calibrateHX711(); //TODO comment it
 
@@ -152,7 +152,7 @@ int main(void)
 		  char str[50] = "";
 		  sprintf(str, "Today weight in kg: %.2f", kgValue);
 
-		  SIM900_TrySendSMS(str);
+		   SIM900_TrySendSMS(str);
 	  }
 
     /* USER CODE END WHILE */
